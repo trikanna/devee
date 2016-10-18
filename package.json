@@ -1,0 +1,18 @@
+{
+  "name": "devee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ELECTRON_ENV=development electron .",
+    "build": "ELECTRON_ENV=production electron-packager ./ TimeMachineEditor --out=build --overwrite=true --asar --platform=darwin --arch=x64"
+  },
+  "dependencies":{
+
+  },
+  "devDependencies": {
+    "electron-packager": "^8.1.0",
+    "electron-prebuilt": "^1.4.3",
+    "electron-reload": "^1.0.2"
+  }
+}

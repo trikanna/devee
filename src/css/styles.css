@@ -1,0 +1,60 @@
+html, body {margin: 0;}
+html {
+    height: 100%;
+    overflow: hidden;
+    background: #e7e7e7;
+}
+
+body {
+    background: rgb(231, 231, 231);
+    font: menu;
+    font-size: 9.7pt;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.container {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 20px;
+}
+
+.half-container {
+    padding: 10px 20px;
+}
+
+.footer {
+    font-size: 8pt;
+    font-weight: 400;
+    border-top: 1px solid rgb(181, 181, 181);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    padding: 3px 10px 3px 10px;
+    background: linear-gradient(rgb(220,220,220), rgb(207,207,207));
+}
+
+.footer span {
+    text-transform: initial;
+    color: #555;
+    font-family: 'Monaco';
+    font-size: 10px;
+}
+
+.footer span.apple {
+    font-size: 21px;
+    position: absolute;
+    top: -7px;
+    right: 6px;
+    -webkit-font-smoothing: antialiased;
+}
+
+input[type=checkbox] {
+    font-size: 15.5px;
+    margin-left: 0;
+}
+
+select {
+    margin-left: 10px;
+    font-size: 11.7pt;
+    min-width: 160px;
+}
